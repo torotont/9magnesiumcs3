@@ -1,0 +1,50 @@
+# Computational Thinking Exercise
+## [Smart School Canteen Queue OR Smart Vending Machine]
+**Name:** Mary Antonette B. Yanto
+**Section:** 9 - Magnesium
+**Last Name:** Yanto
+**Date:** 8/12/2026
+---
+
+## Step 1: Identify the Big Problem
+### Main Problem
+The school canteen is inefficient during lunch break. Because of this, it causes overcrowding and long lines for students.
+---
+## Step 2: Identify the Sub-Problems
+1. Students spend too much time at the counter deciding their order.
+2. The cashier has to process cash and change by hand.
+3. The canteen may experience unexpected food shortages due to having no system to track stock levels.
+4. The canteen may be small and could lack in organized lines to handle the amount of students during lunch time.
+---
+## Step 3: Apply Computational Thinking Skills
+| Sub-Problem | CT Skill | Proposed Solution |
+|---|---|---|
+| Sub-problem 1 | Abstraction | Create a digital menu so that students will know what to order beforehand. |
+| Sub-problem 2 | Algorithms | Create a system that accepts digital payments, which will help in calculating totals and eliminating handling cash manually. |
+| Sub-problem 3 | Pattern Recognition | Analyze sales logs from previous weeks to predict what items are in demand to prepare in advance. |
+| Sub-problem 4 | Decomposition | Divide the canteen into multiple zones. One for ordering food and another zone for claiming orders.|
+---
+## Step 4: Algorithmic Solution
+### Selected Sub-Problem
+Sub-problem 4
+### Pseudocode
+START
+Student enters Canteen
+	
+		Proceed to OrderingQueue
+IF Counter is free THEN
+		Place Order
+		Process Payment
+		Generated OrderTicket
+ENDIF
+Exit OrderingQueue
+
+Move to ClaimingQueue
+
+IF OrderTicket is claimed
+		Receive Order
+ENDIF
+	
+	Exit Canteen
+END
+---
