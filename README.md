@@ -9,5 +9,7 @@
 ## Activities
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](q1/ctskillsMagnesiumYANTO)
-### Python Activities
+### Chinese Zodiac Python Exercise
 [View my Chinese Zodiac Python Exercise](q1/zodiacMagnesiumYANTO.py) 
+### OOP Concept Exercise
+[View my OOP Concept Exercise](q1/ila_oop.md)
