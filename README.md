@@ -15,3 +15,5 @@
 [View my Chinese Zodiac Python Exercise](q1/zodiacMagnesiumYANTO.py) 
 ### OOP Concept Exercise
 [View my OOP Concept Exercise](q1/ila_oop.md)
+### OOP Act Exercise
+[View my OOP Act Exercise](q1/classObjectUML.md)
