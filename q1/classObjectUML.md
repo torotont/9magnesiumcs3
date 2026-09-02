@@ -17,12 +17,23 @@
 ## Methods
 | Method | Description |
 |---|---| 
-| playSong | Plays the selected song |
+| playSong() | Plays the selected song |
 | changeSong(title: string) | Skips to the next song | 
 | displayStats() | Displays the listening statistics for the selected song |
 
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
++------------------------------------------+
+| ListeningStatistics |
++------------------------------------------+
+| title : string |
+| loopSong : boolean |
+| replays : int |
+| songLength : float |
++------------------------------------------+
+| playSong() |
+| changeSong(title : string) |
+| displayStats() |
++------------------------------------------+
 
 ## Design Explanation
 
