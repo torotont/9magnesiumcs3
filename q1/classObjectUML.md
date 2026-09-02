@@ -22,9 +22,8 @@
 | displayStats() | Displays the listening statistics for the selected song |
 
 ## Class Diagram
-|---|
 | ListeningStatistics |
-|---|
+|------|
 | title : string |
 | loopSong : boolean |
 | replays : int |
@@ -33,7 +32,7 @@
 | playSong() |
 | changeSong(title : string) |
 | displayStats() |
-|---|
+|------|
 
 ## Design Explanation
 
