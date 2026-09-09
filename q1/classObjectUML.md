@@ -24,14 +24,15 @@
 ## Class Diagram
 | ListeningStatistics |
 |------|
-| title : string |
-| loopSong : boolean |
-| replays : int |
-| songLength : float |
+| + title : string   |
+| + loopSong : boolean |
+| - replays : int |
+| - songLength : float |
 |---|
-| playSong() |
-| changeSong(title : string) |
-| displayStats() |
+| + playSong() |
+| + changeSong(title : string) |
+| + displayStats() |
+| + getReplays() |
 |------|
 
 ## Design Explanation
