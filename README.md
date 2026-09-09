@@ -17,3 +17,4 @@
 [View my OOP Concept Exercise](q1/ila_oop.md)
 ### OOP Act Exercise
 [View my OOP Act Exercise](q1/classObjectUML.md)
+[View my OOP Act Part 2 Exercise](q1/classAttributesMethods.md)
