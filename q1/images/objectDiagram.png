@@ -1,0 +1,15 @@
+                ListeningStatistics
+                +--------------------+
+                |  class blueprint   |
+                +--------------------+
+                          |
+              -------------------------
+              |                       |
+              v                       v
+  song1 : ListeningStatistics   song2 : ListeningStatistics
+  +---------------------------+ +---------------------------------+
+  | title = "Pwede Ka Ba?"      | | title = "Kay Ganda Mo"         |
+  | loopSong = True             | | loopSong = False               |
+  | replays = 23                | | replays = 10                   |
+  | songLength = 3.45           | | songLength = 5.91              |
+  +---------------------------+ +---------------------------------+
