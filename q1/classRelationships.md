@@ -20,34 +20,7 @@ Multiplicity: 1 : 0..*
 Explanation: One artist can own zero or more songs, while each song in this system belongs to a single artist.
 
 ## UML Class Relationship Diagram
-+---------------------------------+
-|              Artist             |
-+---------------------------------+
-| + artistName : string           |
-| - songs : list                  |
-+---------------------------------+
-| + addSong(song)                 |
-| + mostReplayedSong()            |
-| + displayDiscography()          |
-+---------------------------------+
-              1
-              |
-              | owns
-              |
-             0..*
-+---------------------------------+
-|       ListeningStatistics       |
-+---------------------------------+
-| + title : string                |
-| + loopSong : boolean            |
-| - replays : int                 |
-| - songLength : float            |
-+---------------------------------+
-| + playSong()                    |
-| + changeSong(title)             |
-| + displayStats()                |
-| + getReplays()                  |
-+---------------------------------+
+
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
