@@ -20,13 +20,44 @@ Multiplicity: 1 : 0..*
 Explanation: One artist can own zero or more songs, while each song in this system belongs to a single artist.
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
++---------------------------------+
+|              Artist             |
++---------------------------------+
+| + artistName : string           |
+| - songs : list                  |
++---------------------------------+
+| + addSong(song)                 |
+| + mostReplayedSong()            |
+| + displayDiscography()          |
++---------------------------------+
+              1
+              |
+              | owns
+              |
+             0..*
++---------------------------------+
+|       ListeningStatistics       |
++---------------------------------+
+| + title : string                |
+| + loopSong : boolean            |
+| - replays : int                 |
+| - songLength : float            |
++---------------------------------+
+| + playSong()                    |
+| + changeSong(title)             |
+| + displayStats()                |
+| + getReplays()                  |
++---------------------------------+
+
 ## Python Implementation
 [View Python Source](classRelationships.py)
+
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
+
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
 ## Analysis
 ### What is the association between your two classes?
 The SongArtist class owns a group of ListeningStatistics objects. It stores each song created by that artist and can perform actions across the collection, such as displaying the full discography or finding the most replayed song.
