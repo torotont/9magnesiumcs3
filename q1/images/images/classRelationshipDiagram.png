@@ -1,0 +1,28 @@
++-------------------------------------+
+|              SongArtist             |
++-------------------------------------+
+| + artistName : string               |
+| - songs : list                      |
++-------------------------------------+
+| + addSong(song)                     |
+| + mostReplayedSong()                |
+| + displayDiscography()              |
++-------------------------------------+
+              1
+              |
+              | owns
+              |
+             0..*
++-------------------------------------+
+|       ListeningStatistics           |
++-------------------------------------+
+| + title : string                    |
+| + loopSong : boolean                |
+| - replays : int                     |
+| - songLength : float                |
++-------------------------------------+
+| + playSong()                        |
+| + changeSong(title)                 |
+| + displayStats()                    |
+| + getReplays()                      |
++-------------------------------------+
