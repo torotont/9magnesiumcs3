@@ -20,7 +20,7 @@ Multiplicity: 1 : 0..*
 Explanation: One artist can own zero or more songs, while each song in this system belongs to a single artist.
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](q1/images/images/classRelationshipDiagram.png)
+![Class Relationship Diagram](q1/images/classRelationshipDiagram.png)
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
