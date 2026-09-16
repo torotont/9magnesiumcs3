@@ -5,18 +5,22 @@
 
 ## Existing Class
 Class: Listening Statistics 
+
 Description: It represents a song and tracks its playback behavior.
 
 ## New Related Class
 Class: SongArtist
+
 Description: It represents the musician or band who creates the songs.
 
 ## Association
 Relationship: SongArtist owns ListeningStatistics
+
 Explanation: Every song is created by an artist, so an Artist object needs to store and manage the ListeningStatistics objects that make up their discography.
 
 ## Multiplicity
 Multiplicity: 1 : 0..*
+
 Explanation: One artist can own zero or more songs, while each song in this system belongs to a single artist.
 
 ## UML Class Relationship Diagram
