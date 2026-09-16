@@ -19,3 +19,5 @@
 [View my OOP Act Exercise](q1/classObjectUML.md)
 |
 [View my OOP Act Part 2 Exercise](q1/classAttributesMethods.md)
+|
+[View my OOP Act Part 3 Exercise](q1/classRelationships.md)
