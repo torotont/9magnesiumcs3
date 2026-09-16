@@ -26,10 +26,10 @@ Explanation: One artist can own zero or more songs, while each song in this syst
 [View Python Source](classRelationships.py)
 
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+[Relationship Test Run](images/relationshipTestRun.png)
 
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+[Object Relationship Diagram](images/objectRelationshipDiagram.png)
 
 ## Analysis
 ### What is the association between your two classes?
