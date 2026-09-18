@@ -1,0 +1,21 @@
+      MediaTrack
+   + title : string
+   # duration : float
+   --------------------
+   + displayInfo()
+
+        △
+        |
+        |  IS-A
+        |
+
+    ListeningStatistics
+(inherited: title, duration)
+   + loopSong : boolean
+   - replays : int
+   --------------------
+   + playSong()
+   + changeSong(title)
+   + displayStats()
+   + get_replays()
+   + applyEqualizer(eq)
