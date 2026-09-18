@@ -1,0 +1,19 @@
+                              MediaTrack
+                              + title : string
+                              # duration : float
+                              --------------------
+                              + displayInfo()
+                                     △
+                                     |
+                                     |  IS-A
+                                     |
+Artist                        ListeningStatistics                    Equalizer
++ name : string                (inherited: title, duration)          --------------------
+- songs : list                 + loopSong : boolean                  + boostBass()
+--------------------           - replays : int
++ addSong(song)                --------------------
+      ◇                        + playSong()
+      | songs                  + changeSong(title)
+   1  |  0..*                  + displayStats()
+      --------------------►    + get_replays()
+                                + applyEqualizer(eq)---------------►  uses
