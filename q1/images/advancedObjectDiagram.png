@@ -1,0 +1,21 @@
+artist : SongArtist
+name = "Frank Ely"
+   |
+   | songs
+   |
+   +------> song1 : ListeningStatistics
+   |          inherits: MediaTrack
+   |          title = "Pwede Ka Ba?"
+   |          replays = 23
+   |
+   +------> song2 : ListeningStatistics
+   |          inherits: MediaTrack
+   |          title = "Kay Ganda Mo"
+   |          replays = 10
+   |
+   +------> song3 : ListeningStatistics
+              inherits: MediaTrack
+              title = "Minamahal"
+              replays = 15
+
+eq1 : Equalizer
