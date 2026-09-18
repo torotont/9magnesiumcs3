@@ -23,7 +23,7 @@ class ListeningStatistics:
         return self.__replays
 
 
-class Artist:
+class SongArtist:
     def __init__(self, artistName):
         self.artistName = artistName
         self.songs = [] 
