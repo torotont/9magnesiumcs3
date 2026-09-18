@@ -16,7 +16,7 @@ class ListeningStatistics(MediaTrack):
     """Child class: IS-A MediaTrack, adds playback-tracking behavior."""
 
     def __init__(self, title, loopSong, replays, duration):
-        super().__init__(title, duration)   # reuse parent's init
+        super().__init__(title, duration)
         self.loopSong = loopSong
         self.__replays = replays
 
@@ -31,7 +31,7 @@ class ListeningStatistics(MediaTrack):
 
     def displayStats(self):
         loop_status = "On" if self.loopSong else "Off"
-        base_info = self.displayInfo()          # reused from MediaTrack
+        base_info = self.displayInfo() 
         return f"{base_info} | Loop: {loop_status} | Replays: {self.__replays}"
 
     def get_replays(self):
@@ -55,7 +55,7 @@ class Artist:
 
     def __init__(self, artistName):
         self.artistName = artistName
-        self.songs = []   # aggregated references, not owned/created by Artist
+        self.songs = []  
 
     def addSong(self, song_reference):
         self.songs.append(song_reference)
