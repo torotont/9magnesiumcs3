@@ -13,7 +13,7 @@ Child: ListeningStatistics
 Explanation: MediaTrack will hold the general properties that any playable media item would have. This includes title and duration. ListeningStatistics IS-A MediaTrack because a song is a type of media item.
 
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+[Inheritance](images/inheritanceDiagram.png)
 
 ## Composition/Aggregation
 Relationship: Aggregation — Song Artist aggregates ListeningStatistics
