@@ -1,1 +1,13 @@
-
+artist : Artist
+artistName = "Frank Ely
+   |
+   | songs
+   |
+   +------> song1 : ListeningStatistics
+   |        title = "Pwede Ka Ba?"
+   |
+   +------> song2 : ListeningStatistics
+   |        title = "Kay Ganda Mo"
+   |
+   +------> song3 : ListeningStatistics
+            title = "Minamahal"
