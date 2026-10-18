@@ -23,3 +23,9 @@
 [View my OOP Act Part 3 Exercise](q1/classRelationships.md)
 |
 [View my OOP Act Part 4 Exercise](q1/advancedRelationships.md)
+---
+
+# Quarter 2
+## Activities
+### Encapsulation
+[View my Encapsulation Excercise](q1/ctskillsMagnesiumYANTO)
