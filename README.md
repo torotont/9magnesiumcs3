@@ -28,4 +28,4 @@
 # Quarter 2
 ## Activities
 ### Encapsulation
-[View my Encapsulation Excercise](q1/ctskillsMagnesiumYANTO)
+[View my Encapsulation Excercise](q2/sg8_encapsulation.py)
