@@ -29,3 +29,4 @@
 ## Activities
 ### Encapsulation
 [View my Encapsulation Excercise](q2/sg8_encapsulation.py)
+[View my Inheritance Excercise](q2/sg9_inheritance.py)
