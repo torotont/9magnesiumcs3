@@ -30,3 +30,4 @@
 ### Encapsulation
 [View my Encapsulation Excercise](q2/sg8_encapsulation.py)
 [View my Inheritance Excercise](q2/sg9_inheritance.py)
+[View my Method Overriding Excercise](q2/sg10_method-overriding.py)
