@@ -1,4 +1,4 @@
-# create parent class which is animal
+# creates parent class which is animal
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -10,7 +10,7 @@ class Animal:
         print(self.name + " makes a sound.")
 
 
-# create child class which is lion
+# creates child class which is lion
 class Lion(Animal):
     def make_sound(self):
         print(self.name + " roars loudly!")
@@ -19,7 +19,7 @@ class Lion(Animal):
         print(self.name + " eats fresh meat.")
 
 
-# create another child class called elephant
+# creates another child class called elephant
 class Elephant(Animal):
     def make_sound(self):
         print(self.name + " trumpets!")
@@ -28,7 +28,7 @@ class Elephant(Animal):
         print(self.name + " eats grass and fruits.")
 
 
-# create another child class called monkey
+# creates another child class called monkey
 class Monkey(Animal):
     def make_sound(self):
         print(self.name + " chatters!")
@@ -37,12 +37,12 @@ class Monkey(Animal):
         print(self.name + " eats bananas.")
 
 
-# create objects
+# creates objects
 simba = Lion("Simba")
 dumbo = Elephant("Dumbo")
 george = Monkey("George")
 
-# put in a list and call the objects using a for loop
+# puts in a list and call the objects using a for loop
 animals = [simba, dumbo, george]
 
 for animal in animals:
