@@ -31,5 +31,5 @@
 [View my Encapsulation Excercise](q2/sg8_encapsulation.py)
 [View my Inheritance Excercise](q2/sg9_inheritance.py)
 [View my Method Overriding Excercise](q2/sg10_method-overriding.py)
-[View my Polymorphism Excercise 1]
-[View my Polymorphism Excercise 2]
+[View my Polymorphism Excercise 1](q2/sg11_polymorphism-activity1)
+[View my Polymorphism Excercise 2](q2/sg11_polymorphism-activity2)
