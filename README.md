@@ -17,11 +17,11 @@
 [View my OOP Concept Exercise](q1/ila_oop.md)
 ### OOP Act Exercise
 [View my OOP Act Exercise](q1/classObjectUML.md)
-|
+
 [View my OOP Act Part 2 Exercise](q1/classAttributesMethods.md)
-|
+
 [View my OOP Act Part 3 Exercise](q1/classRelationships.md)
-|
+
 [View my OOP Act Part 4 Exercise](q1/advancedRelationships.md)
 ---
 
@@ -31,3 +31,5 @@
 [View my Encapsulation Excercise](q2/sg8_encapsulation.py)
 [View my Inheritance Excercise](q2/sg9_inheritance.py)
 [View my Method Overriding Excercise](q2/sg10_method-overriding.py)
+[View my Polymorphism Excercise 1]
+[View my Polymorphism Excercise 2]
